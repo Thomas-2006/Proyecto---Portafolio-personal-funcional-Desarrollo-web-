@@ -1,0 +1,71 @@
+# Descripción e intrucciones sobre Portafolio Personal funcional con Blog Técnico y API REST
+
+Este proyecto consiste en el desarrollo de un **portafolio personal funcional** que integra:
+
+- **Hoja de vida digital** (datos, experiencia, estudios, habilidades).
+- **Blog técnico** con al menos dos posts educativos.
+- **API RESTful local** gestionada con **JSON Server**.
+- **Comunicación frontend-backend** usando **Axios**.
+
+---
+
+## Características principales
+
+- **Frontend en React (Vite)** con rutas gestionadas por **React Router**:
+  - `/` → Hoja de vida personal.
+  - `/posts` → Página principal del blog con listado de posts.
+  - `/posts/:id` → Detalle de cada post.
+- **Backend simulado con JSON Server**:
+  - Colección `experiencia` → Datos de la hoja de vida.
+  - Colección `posts` → Posts técnicos del blog.
+- **Comunicación con Axios**:
+  - Instancia configurada en `src/api/client.js`.
+  - Consumo de endpoints: `http://localhost:3000/experiencia` y `http://localhost:3000/posts`.
+- **Modo claro/oscuro**:
+  - Implementación con `ThemeContext`.
+  - Preferencia almacenada en `localStorage`.
+- **Diseño y UX**:
+  - Interfaz limpia, profesional y responsive.
+  - Uso de **Tailwind CSS** o CSS puro.
+  - Accesibilidad básica (etiquetas semánticas, contraste).
+
+---
+
+## Intrucciones del proyecto
+
+## Contenido del Blog
+
+### Post 1: Tutorial técnico
+**Título:** *Cómo construir una lista de tareas con React y JSON Server*  
+**Contenido:**  
+- Explicación paso a paso de una app CRUD (crear, leer, actualizar, eliminar).  
+- Uso de **Axios**, **custom hooks** y **React Router**.  
+- Incluye fragmentos de código relevantes.  
+
+### Post 2: Análisis de una propuesta de TC39
+**Título:** *Análisis de la propuesta ‘Temporal’ en TC39*  
+**Contenido:**  
+- Explicación de la propuesta seleccionada desde [TC39 Proposals](https://tc39.es/#proposals).  
+- ¿Qué problema resuelve?  
+- ¿Cómo funciona?  
+- ¿Por qué es relevante para el futuro de JavaScript?  
+- Opinión crítica sobre su utilidad y posibles riesgos.
+
+## Requisitos tecnicos
+
+- Node.js y npm instalados.
+
+- JSON Server (npx json-server).
+
+- React + Vite.
+
+- Axios (npm install axios).
+
+- Tailwind CSS (opcional).
+
+
+
+
+
+
+
